@@ -7,7 +7,7 @@ import pytest
 from porcentaje import porcentaje
 
 def test_porcentaje_caso_correcto():
-    assert porcentaje(200, 10) == 999  # MAL a propósito
+    assert porcentaje(200, 10) == 20
 
 def test_porcentaje_caso_limite_cero_por_ciento():
     assert porcentaje(999, 0) == 0
